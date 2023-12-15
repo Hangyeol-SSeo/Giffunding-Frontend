@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'ONE-Mobile-POP';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/ONE-Mobile-POP.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GeekbleMalang2WOFF2';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/GeekbleMalang2WOFF2.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+.menu {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: -1%;
+    margin-bottom: -100%;
+    background-color: #e77b7b;
+    height: 100%;
+}
+.username {
+    font-size: 7vmin;
+    padding: 5% 0 5% 5%;
+}
+.setting {
+    font-size: 5vmin;
+    padding: 5% 0 7% 0;
+    margin: 0 5% 0 5%;
+    border-bottom: 1px solid black;
+}
+.info {
+    font-size: 5vmin;
+    padding: 7% 0 2% 0;
+    margin: 0 5% 0 5%;
+    border-bottom: 1px solid black;
+}
+.review {
+    font-size: 5vmin;
+    padding: 7% 0 200% 0;
+    margin: 0 5% -100% 5%;
+}
+.team_name {
+    margin-left: 5%;
+    color:#d81111;
+    font-size: 11vmin;
+    position: absolute;
+    bottom: 1.5%;
+}
+#text {
+    margin: 0 0 5% 0;
+}
+body {
+    font-family: GeekbleMalang2WOFF2;
+}
+a {
+    text-decoration-line: none;
+    color: inherit;
+}

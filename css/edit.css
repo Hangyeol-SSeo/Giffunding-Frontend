@@ -1,0 +1,171 @@
+@font-face {
+    font-family: 'ONE-Mobile-POP';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/ONE-Mobile-POP.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GeekbleMalang2WOFF2';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/GeekbleMalang2WOFF2.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+.draw_explain {
+    font-family: ONE-Mobile-POP;
+    font-size: 9vmin;
+    margin-top: 40px;
+    margin-left: 3%;
+}
+.edit_title {
+    font-family: ONE-Mobile-POP;
+}
+.user_input {
+    margin-top: 5%;
+}
+.page_move {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 4%;
+}
+.bottom_info {
+    position: absolute;
+    bottom: 350px;
+    font-family: GeekbleMalang2WOFF2;
+    font-size: 5vmin;
+}
+.checkbox_form {
+    font-size: 3vmin;
+    position: absolute;
+    bottom: 250px;
+}
+#present_title, #price, #information, #nickname {
+    color: #fe6464;
+    font-size: 4vmin;
+    margin-bottom: 2%;
+}
+#nickname {
+    color: #fe6464;
+    font-size: 4vmin;
+    margin-bottom: 2%;
+    margin-top: 60%;
+}
+#picture {
+    height: 500px;
+}
+#back, #next {
+    font-family: ONE-Mobile-POP;
+    font-size: 7vmin;
+    height: 200px;
+    border: 0;
+    border-radius: 80px;
+    color: white;
+}
+#back {
+    background-color: #f6dcdc;
+    width: 30%;
+    float: left;
+    /* margin-left: 3.3%; */
+}
+#next {
+    background-color: #d81111;
+    width: 60%;
+    float: right;
+    margin-right: 6%;
+}
+#information {
+    position: absolute;
+    bottom: 250px;
+}
+#main_title {
+    font-size: 9vmin;
+    color: #d81111;
+    margin-top: 3%;
+    margin-bottom: 1%;
+}
+#sub_title {
+    font-size: 5vmin;
+    margin-top: 1%;
+
+}
+#present_name {
+    text-align: center;
+    font-size: 5vmin;
+    font-family: GeekbleMalang2WOFF2;
+    margin-top: -0.5%;
+}
+#funding_money {
+    font-family: GeekbleMalang2WOFF2;
+    font-size: 7vmin;
+    text-align: center;
+    margin-top: 5%;
+}
+input[type="checkbox"] {
+    width: 40px;
+}
+body {
+    margin: 0 0 0 3%;
+    padding: 0;
+    background-color: #fff2df;
+}
+
+html, body{
+    -webkit-text-size-adjust : none;  /* 크롬, 사파리, 오페라 신버전 */
+    -ms-text-size-adjust : none;  /* IE */
+    -moz-text-size-adjust : none;  /* 파이어폭스 */
+    -o-text-size-adjust : none;  /* 오페라 구버전 */
+}
+table {
+    width: 100%;
+    margin-top: 20px;
+    /* margin-left: 1%; */
+    height: 40px;
+}
+td {
+    background-color: #d81111;
+    width: 43%;
+    empty-cells: show;
+}
+input {
+    border-radius: 70px;
+    width: 98%;
+    height: 140px;
+    margin-bottom: 2%;
+    font-size: 4.5vmin;
+}
+canvas {
+    border-radius: 70px;
+    width: 98%;
+    height: 500px;
+    margin-bottom: 2%;
+    border: 1px solid black;
+}
+input::placeholder {
+    font-size: 4.5vmin;
+    text-align: right;
+    padding-right: 30px;
+}
+progress {
+    margin-top: -1%;
+    background-color: #166f4a;
+    width: 100%;
+    height: 80px;
+    border-radius: 40px;
+    columns: white;
+}
+progress::-webkit-progress-bar {
+    margin-top: -1%;
+    background-color: #166f4a;
+    width: 100%;
+    height: 80px;
+    border-radius: 40px;
+    color: white;
+}
+progress::-webkit-progress-value {
+    margin-top: -1%;
+    background-color: #d81111;
+    width: 100%;
+    height: 80px;
+    border-radius: 40px;
+    color: white;
+}

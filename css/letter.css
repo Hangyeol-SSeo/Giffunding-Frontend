@@ -1,0 +1,151 @@
+@font-face {
+    font-family: 'ONE-Mobile-POP';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/ONE-Mobile-POP.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GeekbleMalang2WOFF2';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/GeekbleMalang2WOFF2.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+.menu {
+    margin-top: 2%;
+}
+.user_input {
+    margin-top: 5%;
+    margin-right: 3%;
+}
+.page_move {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 4%;
+}
+#letter_box {
+    width: 97%;
+    text-align: center;
+}
+#letter_content {
+    text-align: center;
+    position: absolute;
+    top: 27%;
+    left: 25%;
+    z-index: 2;
+    font-family: GeekbleMalang2WOFF2;
+    font-size: 5vmin;
+    width: 50%;
+}
+#prev {
+    position: absolute;
+    top: 33%;
+    left: 5%;
+    z-index: 2;
+}
+#next {
+    position: absolute;
+    top: 33%;
+    right: 5%;
+    z-index: 2;
+}
+#letter_writer {
+    position: absolute;
+    top: 46%;
+    right: 11%;
+    z-index: 2;
+    font-family: GeekbleMalang2WOFF2;
+    font-size: 5vmin;
+    color: white;
+    -webkit-transform: rotate(-41deg);
+    -moz-transform: rotate(-41deg);
+    -o-transform: rotate(-41deg);
+}
+img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+}
+#user_present_name {
+    font-family: GeekbleMalang2Woff2;
+    font-size: 12vmin;
+    text-align: center;
+    clear: right;
+    margin-top: 15%;
+    margin-right: 3%;
+}
+#create, #funding {
+    font-family: ONE-Mobile-POP;
+    font-size: 7vmin;
+    height: 200px;
+    border: 0;
+    border-radius: 80px;
+    color: white;
+}
+
+#funding {
+    background-color: #d81111;
+    width: 30%;
+    float: right;
+    margin-right: 6%;
+    /* margin-left: 3.3%; */
+}
+#create {
+    background-color: #166f4a;
+    width: 60%;
+    float: left;
+}
+#funding_money {
+    font-family: GeekbleMalang2WOFF2;
+    font-size: 7vmin;
+    text-align: center;
+    margin-top: 5%;
+}
+body {
+    margin: 0 0 0 3%;
+    padding: 0;
+    background-color: #fff2df;
+}
+html, body{
+    -webkit-text-size-adjust : none;  /* 크롬, 사파리, 오페라 신버전 */
+    -ms-text-size-adjust : none;  /* IE */
+    -moz-text-size-adjust : none;  /* 파이어폭스 */
+    -o-text-size-adjust : none;  /* 오페라 구버전 */
+}
+progress {
+    margin-top: -1%;
+    background-color: #166f4a;
+    width: 100%;
+    height: 80px;
+    border-radius: 40px;
+    columns: white;
+}
+progress::-webkit-progress-bar {
+    margin-top: -1%;
+    background-color: #166f4a;
+    width: 100%;
+    height: 80px;
+    border-radius: 40px;
+    color: white;
+}
+progress::-webkit-progress-value {
+    margin-top: -1%;
+    background-color: #d81111;
+    width: 100%;
+    height: 80px;
+    border-radius: 40px;
+    color: white;
+}
+header {
+    height: 15%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.menu {
+    float: right;
+    margin-right: 6%;
+}

@@ -1,0 +1,308 @@
+@font-face {
+    font-family: 'ONE-Mobile-POP';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/ONE-Mobile-POP.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GeekbleMalang2WOFF2';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/GeekbleMalang2WOFF2.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+.menu {
+    margin-top: 2%;
+}
+.user_input {
+    margin-top: 5%;
+    margin-right: 3%;
+}
+.page_move {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 4%;
+}
+#user_present_name {
+    font-family: GeekbleMalang2Woff2;
+    font-size: 12vmin;
+    text-align: center;
+    clear: right;
+    margin-top: 15%;
+    margin-right: 3%;
+}
+#present_title, #price, #information {
+    color: #fe6464;
+    font-size: 4vmin;
+    margin-bottom: 2%;
+}
+#picture {
+    height: 500px;
+}
+#share {
+    font-family: ONE-Mobile-POP;
+    font-size: 7vmin;
+    height: 200px;
+    border: 0;
+    border-radius: 50px;
+    color: white;
+    background-color: #d81111;
+    width: 70%;
+    float: left;
+}
+#funding_button {
+    font-family: ONE-Mobile-POP;
+    font-size: 7vmin;
+    height: 200px;
+    border: 0;
+    border-radius: 50px;
+    color: white;
+    background-color: #d81111;
+    width: 94%;
+    float: left;
+}
+#funding_sub {
+    font-family: GeekbleMalang2WOFF2;
+    font-size: 6vmin;
+    text-align: center;
+}
+#Capa_1 {
+    margin-top: 4%;
+    margin-left: 6%;
+}
+#back, #next {
+    font-family: ONE-Mobile-POP;
+    font-size: 7vmin;
+    height: 200px;
+    border: 0;
+    border-radius: 50px;
+    color: white;
+}
+#back {
+    background-color: #f6dcdc;
+    width: 30%;
+    float: left;
+    /* margin-left: 3.3%; */
+}
+#next {
+    background-color: #d81111;
+    width: 60%;
+    float: right;
+    margin-right: 6%;
+}
+#create, #funding {
+    font-family: ONE-Mobile-POP;
+    font-size: 7vmin;
+    height: 200px;
+    border: 0;
+    border-radius: 80px;
+    color: white;
+}
+#funding {
+    background-color: #d81111;
+    width: 30%;
+    float: right;
+    margin-right: 6%;
+    /* margin-left: 3.3%; */
+}
+#create {
+    background-color: #166f4a;
+    width: 60%;
+    float: left;
+}
+#present_name {
+    text-align: center;
+    font-size: 5vmin;
+    font-family: GeekbleMalang2WOFF2;
+    margin-top: -0.5%;
+}
+#present_box {
+    margin-left: 10%;
+    width: 90%;
+    overflow: hidden;
+}
+#open_present_box {
+    position: relative;
+    z-index: 1;
+}
+#present_inside {
+    position: absolute;
+    width: 50%;
+    z-index: 2;
+    margin-top: -50%;
+    margin-left: 15%;
+}
+#price, #letter {
+    color: #fe6464;
+    font-size: 4vmin;
+    margin-bottom: 2%;
+}
+#funding_money {
+    font-family: GeekbleMalang2WOFF2;
+    font-size: 7vmin;
+    text-align: center;
+    margin-top: 5%;
+}
+#camera {
+    width: 10px;
+    height: 10px;
+}
+body {
+    margin: 0 0 0 3%;
+    padding: 0;
+    background-color: #fff2df;
+}
+html, body{
+    -webkit-text-size-adjust : none;  /* 크롬, 사파리, 오페라 신버전 */
+    -ms-text-size-adjust : none;  /* IE */
+    -moz-text-size-adjust : none;  /* 파이어폭스 */
+    -o-text-size-adjust : none;  /* 오페라 구버전 */
+}
+progress {
+    margin-top: -1%;
+    background-color: #166f4a;
+    width: 100%;
+    height: 80px;
+    border-radius: 40px;
+    columns: white;
+}
+progress::-webkit-progress-bar {
+    margin-top: -1%;
+    background-color: #166f4a;
+    width: 100%;
+    height: 80px;
+    border-radius: 40px;
+    color: white;
+}
+progress::-webkit-progress-value {
+    margin-top: -1%;
+    background-color: #d81111;
+    width: 100%;
+    height: 80px;
+    border-radius: 40px;
+    color: white;
+}
+header {
+    height: 15%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+img {
+    width: 130%;
+    object-fit: cover;
+    margin-top: 2%;
+}
+input {
+    border-radius: 70px;
+    width: 98%;
+    height: 140px;
+    margin-bottom: 2%;
+    font-size: 4.5vmin;
+}
+input::placeholder {
+    font-size: 4.5vmin;
+    padding-left: 30px;
+}
+.menu {
+    float: right;
+    margin-right: 6%;
+}
+#move_present {
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 35%;
+    position: relative;
+    width: 30%;
+    height: 100px;
+}
+#page_button {
+    text-align: center;
+    background-color: #a2bda4;
+    color: white;
+    font-size: 5vmin;
+    font-family: GeekbleMalang2WOFF2;
+    border: 0;
+    border-radius: 50px;
+    height: 100px;
+    width: 100%;
+}
+.info_text {
+    position: absolute;
+    bottom: 260px;
+    font-size: 3.5vmin;
+}
+#name1 {
+    font-family: GeekbleMalang2WOFF2;
+    font-size: 4.5vmin;
+    position: absolute;
+    z-index: 2;
+    color: white;
+    top: 20%;
+    left: 60%;
+    -webkit-transform: rotate(30deg);
+    -moz-transform: rotate(30deg);
+    -o-transform: rotate(30deg);
+}
+#name2 {
+    font-family: GeekbleMalang2WOFF2;
+    font-size: 4.5vmin;
+    position: absolute;
+    z-index: 2;
+    color: white;
+    top: 20%;
+    left: 88%;
+    -webkit-transform: rotate(-60deg);
+    -moz-transform: rotate(-60deg);
+    -o-transform: rotate(-60deg);
+}
+#name3 {
+    font-family: GeekbleMalang2WOFF2;
+    font-size: 4.5vmin;
+    position: absolute;
+    z-index: 2;
+    color: white;
+    top: 30%;
+    left: 72%;
+    -webkit-transform: rotate(-60deg);
+    -moz-transform: rotate(-60deg);
+    -o-transform: rotate(-60deg);
+}
+#name4 {
+    font-family: GeekbleMalang2WOFF2;
+    font-size: 4.5vmin;
+    position: absolute;
+    z-index: 2;
+    color: white;
+    top: 28%;
+    left: 88%;
+    -webkit-transform: rotate(30deg);
+    -moz-transform: rotate(30deg);
+    -o-transform: rotate(30deg);
+}
+/* #bottom_name1 {
+    float: left;
+    font-family: GeekbleMalang2WOFF2;
+    font-size: 4vmin;
+}
+#bottom_name2 {
+    float: right;
+    font-family: GeekbleMalang2WOFF2;
+    font-size: 4vmin;
+    
+}
+.bottom_group2 {
+    margin-top: -50%;
+}
+#bottom_name3 {
+    float: left;
+    font-family: GeekbleMalang2WOFF2;
+    font-size: 4vmin;
+    
+}
+#bottom_name4 {
+    float: right;
+    font-family: GeekbleMalang2WOFF2;
+    font-size: 4vmin;
+} */

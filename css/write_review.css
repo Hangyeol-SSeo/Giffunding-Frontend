@@ -1,0 +1,88 @@
+@font-face {
+    font-family: 'ONE-Mobile-POP';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/ONE-Mobile-POP.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GeekbleMalang2WOFF2';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/GeekbleMalang2WOFF2.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+.menu {
+    margin-top: 2%;
+}
+.page_move {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 4%;
+}
+#user_present_name {
+    font-family: GeekbleMalang2Woff2;
+    font-size: 12vmin;
+    text-align: center;
+    clear: right;
+    margin-top: 15%;
+    margin-right: 3%;
+    margin-bottom: 10%;
+}
+#share {
+    font-family: ONE-Mobile-POP;
+    font-size: 7vmin;
+    height: 200px;
+    border: 0;
+    border-radius: 50px;
+    color: white;
+    background-color: #d81111;
+    width: 94%;
+    float: left;
+}
+body {
+    margin: 0 0 0 3%;
+    padding: 0;
+    background-color: #fff2df;
+}
+html, body{
+    -webkit-text-size-adjust : none;  /* 크롬, 사파리, 오페라 신버전 */
+    -ms-text-size-adjust : none;  /* IE */
+    -moz-text-size-adjust : none;  /* 파이어폭스 */
+    -o-text-size-adjust : none;  /* 오페라 구버전 */
+}
+header {
+    height: 15%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.menu {
+    float: right;
+    margin-right: 6%;
+}
+table {
+    border: 0;
+    background-color: white;
+    border-radius: 50px;
+    width: 97%;
+    font-size: 3.5vmin;
+    margin-top: 1%;
+    box-shadow: 5px 5px lightgray;
+}
+td {
+    padding: 30px 15px;
+    /* border-bottom: 1px solid black; */
+}
+#review_icon {
+    position: absolute;
+    top: 15%;
+    left: 45%;
+}
+#textbox {
+    width: 95%;
+    height: 500px;
+    border: 0;
+    border-radius: 50px;
+    margin-top: 5px;
+}

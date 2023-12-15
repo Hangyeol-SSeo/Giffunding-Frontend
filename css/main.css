@@ -1,0 +1,89 @@
+@font-face {
+    font-family: 'ONE-Mobile-POP';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/ONE-Mobile-POP.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GeekbleMalang2WOFF2';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/GeekbleMalang2WOFF2.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+.main_title {
+    color: #d81111;
+    font-size: 12vmin;
+    text-underline-position: under;
+    margin-top: 25%;
+}
+.main_text {
+    font-size: 6vmin;
+    margin-top: -2%;
+    margin-bottom: 10%;
+}
+.main_bottom {
+    position: absolute;
+    bottom: 0;
+    padding-left: 20px;
+    /* height: auto;
+    min-height: 100%;
+    padding-bottom: 70%; */
+}
+.draw_explain {
+    font-family: ONE-Mobile-POP;
+    font-size: 9vmin;
+    margin-top: 40px;
+    text-align: left;
+    margin-left: 3%;
+}
+#team_name {
+    float: left;
+    color:#d81111;
+    font-size: 11vmin;
+    /* margin-left: 20px; */
+    margin-right: 300px;
+}
+#insta_name {
+    float: right;
+    font-size: 6vmin;
+    padding-top: 3%;
+    margin-right: 0;
+}
+#main_text {
+    font-size: 6vmin;
+    font-family: ONE-Mobile-POP;
+}
+body {
+    font-family: 'GeekbleMalang2WOFF2';
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #fff2df;
+}
+
+html, body{
+    -webkit-text-size-adjust : none;  /* 크롬, 사파리, 오페라 신버전 */
+    -ms-text-size-adjust : none;  /* IE */
+    -moz-text-size-adjust : none;  /* 파이어폭스 */
+    -o-text-size-adjust : none;  /* 오페라 구버전 */
+}
+
+img {
+    margin-bottom: 10%;
+}
+table {
+    width: 98%;
+    margin-top: 20px;
+    margin-left: 1%;
+    height: 30px;
+}
+td {
+    background-color: #d81111;
+    width: 43%;
+    empty-cells: show;
+}
+/* footer {
+    height: 70%;
+    position: relative;
+    transform: translateY(-100%);
+} */
