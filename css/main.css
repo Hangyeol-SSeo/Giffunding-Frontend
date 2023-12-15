@@ -22,12 +22,11 @@
     margin-bottom: 10%;
 }
 .main_bottom {
-    position: absolute;
-    bottom: 0;
-    padding-left: 20px;
-    /* height: auto;
-    min-height: 100%;
-    padding-bottom: 70%; */
+    /* position: absolute;
+    bottom: 2vmin; */
+    padding-left: 3vmin;
+    margin-top: 20vmin;
+    margin-bottom: 5vmin;
 }
 .draw_explain {
     font-family: ONE-Mobile-POP;
@@ -39,15 +38,15 @@
 #team_name {
     float: left;
     color:#d81111;
-    font-size: 11vmin;
+    font-size: 8vmin;
     /* margin-left: 20px; */
-    margin-right: 300px;
+    margin-right: 32vmin;
 }
 #insta_name {
     float: right;
     font-size: 6vmin;
     padding-top: 3%;
-    margin-right: 0;
+    margin-right: 3vmin;
 }
 #main_text {
     font-size: 6vmin;

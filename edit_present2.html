@@ -2,6 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
         <title>giffunding</title>
         <link rel="stylesheet" as="style" href="css/edit.css">
         <style>
@@ -29,7 +30,9 @@
             </div>
             <p id="present_name">선물 이름</p>
             <div id="funding_progress">
-                <progress value="0" max="100">0%</progress>
+                <progress id="progressBar" value="0" max="100"></progress>
+                <div id="progressText"></div>
+                <script src="C:\workspace\giffunding\js\progress.js"></script>
             </div>
             <div id="funding_money">
                 0/270,000\

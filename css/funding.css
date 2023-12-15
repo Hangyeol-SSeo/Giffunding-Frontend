@@ -14,21 +14,39 @@
     margin-top: 2%;
 }
 .user_input {
-    margin-top: 5%;
+    margin-top: 1%;
     margin-right: 3%;
 }
 .page_move {
-    position: absolute;
-    bottom: 0;
+    /* position: fixed; */
+    /* bottom: 1vmin; */
     width: 100%;
+    /* margin-bottom: 4%; */
+    margin-top: 5%;
     margin-bottom: 4%;
 }
+.info_text {
+    /* position: relative; */
+    /* bottom: 1vmin; */
+    font-size: 3.5vmin;
+    margin-top: 5%;
+}
+/* .page_move{
+    height: auto;
+    min-height: 100%;
+    padding-bottom: 2vmin;
+}
+footer{
+    height: 2vmin;
+    position : relative;
+    transform : translateY(-100%);
+} */
 #user_present_name {
     font-family: GeekbleMalang2Woff2;
     font-size: 12vmin;
     text-align: center;
     clear: right;
-    margin-top: 15%;
+    margin-top: 12%;
     margin-right: 3%;
 }
 #present_title, #price, #information {
@@ -41,13 +59,13 @@
 }
 #share {
     font-family: ONE-Mobile-POP;
-    font-size: 7vmin;
-    height: 200px;
+    font-size: 5vmin;
+    height: 17vmin;
     border: 0;
-    border-radius: 50px;
+    border-radius: 5vmin;
     color: white;
     background-color: #d81111;
-    width: 70%;
+    width: 60vmin;
     float: left;
 }
 #funding_button {
@@ -68,7 +86,7 @@
 }
 #Capa_1 {
     margin-top: 4%;
-    margin-left: 6%;
+    margin-left: 15%;
 }
 #back, #next {
     font-family: ONE-Mobile-POP;
@@ -114,7 +132,7 @@
     text-align: center;
     font-size: 5vmin;
     font-family: GeekbleMalang2WOFF2;
-    margin-top: -0.5%;
+    margin-top: -2%;
 }
 #present_box {
     margin-left: 10%;
@@ -127,9 +145,9 @@
 }
 #present_inside {
     position: absolute;
-    width: 50%;
+    width: 45%;
     z-index: 2;
-    margin-top: -50%;
+    margin-top: -45%;
     margin-left: 15%;
 }
 #price, #letter {
@@ -160,37 +178,39 @@ html, body{
 }
 progress {
     margin-top: -1%;
-    background-color: #166f4a;
+    -webkit-appearance: none;
     width: 100%;
-    height: 80px;
+    height: 8vmin;
     border-radius: 40px;
-    columns: white;
 }
-progress::-webkit-progress-bar {
+::-webkit-progress-bar {
     margin-top: -1%;
     background-color: #166f4a;
     width: 100%;
-    height: 80px;
+    height: 8vmin;
     border-radius: 40px;
-    color: white;
 }
-progress::-webkit-progress-value {
+::-webkit-progress-value {
     margin-top: -1%;
     background-color: #d81111;
     width: 100%;
-    height: 80px;
+    height: 8vmin;
     border-radius: 40px;
+}
+#progressText {
+    text-align: center;
     color: white;
+    margin-top: -7vmin;
 }
 header {
-    height: 15%;
+    height: 10%;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
 }
 img {
-    width: 130%;
+    width: 120%;
     object-fit: cover;
     margin-top: 2%;
 }
@@ -211,7 +231,7 @@ input::placeholder {
 }
 #move_present {
     text-align: center;
-    margin-top: 5%;
+    margin-top: 15%;
     margin-left: 35%;
     position: relative;
     width: 30%;
@@ -224,14 +244,9 @@ input::placeholder {
     font-size: 5vmin;
     font-family: GeekbleMalang2WOFF2;
     border: 0;
-    border-radius: 50px;
-    height: 100px;
+    border-radius: 5vmin;
+    height: 10vmin;
     width: 100%;
-}
-.info_text {
-    position: absolute;
-    bottom: 260px;
-    font-size: 3.5vmin;
 }
 #name1 {
     font-family: GeekbleMalang2WOFF2;

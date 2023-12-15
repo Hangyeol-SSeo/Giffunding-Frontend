@@ -23,21 +23,26 @@
     margin-top: 5%;
 }
 .page_move {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    margin-bottom: 4%;
+    /* position: absolute;
+    bottom: 0; */
+    width: 97vmin;
+    margin-top: 3vmin;
+    margin-bottom: 4vmin;
 }
 .bottom_info {
-    position: absolute;
-    bottom: 350px;
+    /* position: absolute;
+    bottom: 350px; */
     font-family: GeekbleMalang2WOFF2;
     font-size: 5vmin;
+    margin-top: 30vmin;
 }
 .checkbox_form {
     font-size: 3vmin;
-    position: absolute;
-    bottom: 250px;
+    display: flex; /* Flexbox를 사용하여 요소들을 정렬 */
+    align-items: center; /* 요소들을 세로 가운데 정렬 */
+    margin-top: 50vmin;
+    /* position: absolute;
+    bottom: 250px; */
 }
 #present_title, #price, #information, #nickname {
     color: #fe6464;
@@ -51,31 +56,35 @@
     margin-top: 60%;
 }
 #picture {
-    height: 500px;
+    height: 60vmin;
+    border-radius: 10vmin;
+    border: 1px solid black;
+    width: 93vmin;
 }
 #back, #next {
     font-family: ONE-Mobile-POP;
-    font-size: 7vmin;
-    height: 200px;
+    font-size: 5vmin;
+    height: 17vmin;
     border: 0;
-    border-radius: 80px;
+    border-radius: 5vmin;
     color: white;
 }
 #back {
     background-color: #f6dcdc;
-    width: 30%;
+    width: 30vmin;
     float: left;
     /* margin-left: 3.3%; */
 }
 #next {
     background-color: #d81111;
-    width: 60%;
+    width: 60vmin;
     float: right;
-    margin-right: 6%;
+    margin-right: 3%;
 }
 #information {
-    position: absolute;
-    bottom: 250px;
+    /* position: absolute;
+    bottom: 250px; */
+    margin-top: 40vmin;
 }
 #main_title {
     font-size: 9vmin;
@@ -101,7 +110,14 @@
     margin-top: 5%;
 }
 input[type="checkbox"] {
-    width: 40px;
+    width: 4vmin;
+    height: 4vmin; /* Checkbox의 높이를 조정 */
+    margin-right: 1vmin; /* Checkbox와 Label 사이의 간격 조정 */
+}
+label {
+    font-size: 4vmin; /* Label의 폰트 크기를 조정 */
+    margin-bottom: 0; /* 기본적인 마진 제거 */
+    line-height: 4vmin; /* Label의 높이를 Checkbox와 동일하게 맞춤 */
 }
 body {
     margin: 0 0 0 3%;
@@ -116,29 +132,30 @@ html, body{
     -o-text-size-adjust : none;  /* 오페라 구버전 */
 }
 table {
-    width: 100%;
-    margin-top: 20px;
+    width: 94vmin;
+    margin-top: 3vmin;
     /* margin-left: 1%; */
-    height: 40px;
+    height: 5vmin;
 }
 td {
     background-color: #d81111;
-    width: 43%;
+    width: 43vmin;
     empty-cells: show;
 }
 input {
-    border-radius: 70px;
-    width: 98%;
-    height: 140px;
+    border-radius: 7vmin;
+    width: 94vmin;
+    height: 13vmin;
     margin-bottom: 2%;
     font-size: 4.5vmin;
 }
 canvas {
-    border-radius: 70px;
-    width: 98%;
-    height: 500px;
+    border-radius: 10vmin;
+    width: 94vmin;
+    height: 60vmin;
     margin-bottom: 2%;
     border: 1px solid black;
+    background-color: white;
 }
 input::placeholder {
     font-size: 4.5vmin;
@@ -147,25 +164,27 @@ input::placeholder {
 }
 progress {
     margin-top: -1%;
-    background-color: #166f4a;
+    -webkit-appearance: none;
     width: 100%;
-    height: 80px;
+    height: 8vmin;
     border-radius: 40px;
-    columns: white;
 }
-progress::-webkit-progress-bar {
+::-webkit-progress-bar {
     margin-top: -1%;
     background-color: #166f4a;
-    width: 100%;
-    height: 80px;
+    width: 97%;
+    height: 8vmin;
     border-radius: 40px;
-    color: white;
 }
-progress::-webkit-progress-value {
+::-webkit-progress-value {
     margin-top: -1%;
     background-color: #d81111;
-    width: 100%;
-    height: 80px;
+    width: 97%;
+    height: 8vmin;
     border-radius: 40px;
+}
+#progressText {
+    text-align: center;
     color: white;
+    margin-top: -7vmin;
 }
