@@ -10,6 +10,92 @@
   font-weight: normal;
   font-style: normal;
 }
+.draw_explain {
+    font-family: ONE-Mobile-POP;
+    font-size: 9vmin;
+    margin-top: 5vmin;
+    margin-bottom: 10vmin;
+    text-align: left;
+    /* margin-left: 3%; */
+}
+.status {
+    margin-top: 1%;
+    margin-right: 3%;
+}
+#user_present_name {
+    font-family: GeekbleMalang2Woff2;
+    font-size: 12vmin;
+    text-align: center;
+    clear: right;
+    margin-top: 17vmin;
+    /* margin-right: 3%; */
+}
+.info_text {
+    /* position: relative; */
+    /* bottom: 1vmin; */
+    font-size: 3.5vmin;
+    /* margin-top: 5%; */
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+.edit_title {
+    font-family: ONE-Mobile-POP;
+    text-align: left;
+}
+.user_input {
+    margin-top: 5%;
+}
+.user_input2 {
+    margin-top: -15vmin;
+}
+#move_present {
+    text-align: center;
+    margin-top: 5vmin;
+    margin-left: 35%;
+    position: relative;
+    width: 30%;
+    height: 100px;
+}
+#page_button {
+    text-align: center;
+    background-color: #a2bda4;
+    color: white;
+    font-size: 5vmin;
+    font-family: GeekbleMalang2WOFF2;
+    border: 0;
+    border-radius: 5vmin;
+    height: 10vmin;
+    width: 100%;
+}
+.page_move {
+    /* position: absolute;
+    bottom: 0; */
+    width: 97vmin;
+    margin-top: 3vmin;
+    margin-bottom: 4vmin;
+}
+.bottom_info {
+    /* position: absolute;
+    bottom: 350px; */
+    font-family: GeekbleMalang2WOFF2;
+    font-size: 5vmin;
+    margin-top: 20vmin;
+    text-align: left;
+}
+.progressPercent{
+  position:absolute;
+  margin-top: -6vmin;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.progressbar{
+  position: relative;
+  /* overflow: hidden; */
+  width: 94vmin;
+  height: 8vmin;
+  border-radius: 40vmin;
+  background-color: #166f4a;
+}
 .main_title {
     color: #d81111;
     font-size: 12vmin;
@@ -24,13 +110,142 @@
 .img_layout {
   align-items: center;
 }
+.menu {
+  text-align: right;
+  margin-top: 2vmin;
+  margin-right: 4vmin;
+}
+#menu_icon {
+  width: 10vmin;
+}
 .main_bottom {
     padding-left: 3vmin;
     margin-top: 20vmin;
     margin-bottom: 5vmin;
 }
+#picture {
+    height: 500px;
+}
+#share {
+    font-family: ONE-Mobile-POP;
+    font-size: 5vmin;
+    height: 17vmin;
+    border: 0;
+    border-radius: 5vmin;
+    color: white;
+    background-color: #d81111;
+    width: 60vmin;
+    float: left;
+    padding-top: 5vmin;
+    /* display: table; */
+}
+#back, #next {
+    font-family: ONE-Mobile-POP;
+    font-size: 7vmin;
+    height: 200px;
+    border: 0;
+    border-radius: 50px;
+    color: white;
+}
+#back {
+    background-color: #f6dcdc;
+    width: 30%;
+    float: left;
+    /* margin-left: 3.3%; */
+}
+#next {
+    background-color: #d81111;
+    width: 60%;
+    float: right;
+    margin-right: 6%;
+}
+#create, #funding {
+    font-family: ONE-Mobile-POP;
+    font-size: 7vmin;
+    height: 200px;
+    border: 0;
+    border-radius: 80px;
+    color: white;
+}
+#funding {
+    background-color: #d81111;
+    width: 30%;
+    float: right;
+    margin-right: 6%;
+    /* margin-left: 3.3%; */
+}
+#create {
+    background-color: #166f4a;
+    width: 60%;
+    float: left;
+}
+#funding_sub {
+    font-family: GeekbleMalang2WOFF2;
+    font-size: 6vmin;
+    text-align: center;
+}
+#funding_button {
+    font-family: ONE-Mobile-POP;
+    font-size: 7vmin;
+    height: 200px;
+    border: 0;
+    border-radius: 50px;
+    color: white;
+    background-color: #d81111;
+    width: 94%;
+    float: left;
+}
+#present_name {
+    text-align: center;
+    font-size: 5vmin;
+    font-family: GeekbleMalang2WOFF2;
+    margin-top: -2%;
+}
+#present_box {
+    margin-left: 10%;
+    width: 90%;
+    overflow: hidden;
+}
+#open_present_box {
+    position: relative;
+    z-index: 1;
+}
+#present_inside {
+    position: absolute;
+    width: 40vmin;
+    z-index: 2;
+    margin-top: -52vmin;
+    margin-left: -27vmin;
+}
+.checkbox_form {
+    font-size: 3vmin;
+    display: flex; /* Flexbox를 사용하여 요소들을 정렬 */
+    align-items: center; /* 요소들을 세로 가운데 정렬 */
+    margin-top: 50vmin;
+    /* position: absolute;
+    bottom: 250px; */
+}
+#present_title, #price, #letter, #information, #nickname, #username {
+    color: #fe6464;
+    font-size: 4vmin;
+    margin-bottom: 2%;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+#nickname {
+    color: #fe6464;
+    font-size: 4vmin;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-bottom: 2%;
+    margin-top: 60%;
+    text-align: left;
+}
 #main_img {
   width: 100vmin;
+}
+#main_text {
+    font-size: 6vmin;
+    font-family: ONE-Mobile-POP;
 }
 #login_button {
   width: 80vmin;
@@ -39,13 +254,117 @@
     float: left;
     color:#d81111;
     font-size: 8vmin;
-    margin-right: 32vmin;
+    margin-right: 25vmin;
 }
 #insta_name {
     float: right;
     font-size: 6vmin;
     padding-top: 1vmin;
     margin-right: 3vmin;
+}
+#p1 {
+    width: 42vmin;
+}
+#p2 {
+  width: 1vmin; background-color: #fff2df;
+}
+#p3 {
+  width: 42vmin; background-color: #f6dcdc;
+}
+#p4 {
+  width: 42vmin;
+}
+#highlight_text {
+  color: #d81111;
+}
+#picture {
+    height: 60vmin;
+    border-radius: 10vmin;
+    border: 1px solid black;
+    width: 93vmin;
+}
+#back, #next {
+    font-family: ONE-Mobile-POP;
+    font-size: 5vmin;
+    height: 17vmin;
+    border: 0;
+    border-radius: 5vmin;
+    color: white;
+}
+#back {
+    background-color: #f6dcdc;
+    width: 30vmin;
+    float: left;
+    /* margin-left: 3.3%; */
+}
+#next {
+    background-color: #d81111;
+    width: 60vmin;
+    float: right;
+    margin-right: 3%;
+}
+#information {
+    /* position: absolute;
+    bottom: 250px; */
+    margin-top: 40vmin;
+}
+#main_title {
+    font-size: 9vmin;
+    color: #d81111;
+    margin-top: 3%;
+    margin-bottom: 1%;
+}
+#sub_title {
+    font-size: 5vmin;
+    margin-top: 1%;
+
+}
+#present_name {
+    text-align: center;
+    font-size: 5vmin;
+    font-family: GeekbleMalang2WOFF2;
+    margin-top: -0.5%;
+}
+#funding_money {
+    font-family: GeekbleMalang2WOFF2;
+    font-size: 7vmin;
+    text-align: center;
+    margin-top: 10vmin;
+}
+header {
+    height: 10%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+img {
+    width: 120%;
+    object-fit: cover;
+    margin-top: 2%;
+}
+input[type="checkbox"] {
+    width: 4vmin;
+    height: 4vmin; /* Checkbox의 높이를 조정 */
+    margin-right: 1vmin; /* Checkbox와 Label 사이의 간격 조정 */
+}
+#camera_icon {
+  width: 10vmin;
+  
+}
+#share_icon {
+  color: white;
+  width: 7vmin;
+  float: left;
+  margin-left: 5vmin;
+  margin-top: -1vmin;
+}
+label {
+    font-size: 4vmin; /* Label의 폰트 크기를 조정 */
+    margin-bottom: 0; /* 기본적인 마진 제거 */
+    line-height: 4vmin; /* Label의 높이를 Checkbox와 동일하게 맞춤 */
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
 }
 html, body{
   -webkit-text-size-adjust : none;  /* 크롬, 사파리, 오페라 신버전 */
@@ -54,7 +373,8 @@ html, body{
   -o-text-size-adjust : none;  /* 오페라 구버전 */
 }
 body {
-  margin: 0;
+  margin: 0 3vmin 0 3vmin;
+  padding: 0;
   font-family: 'GeekbleMalang2WOFF2';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -63,4 +383,68 @@ body {
 }
 img {
   margin-bottom: 10%;
+}
+table {
+  width: 94vmin;
+  margin-top: 3vmin;
+  /* margin-left: 1%; */
+  height: 5vmin;
+}
+td {
+  background-color: #d81111;
+  width: 43vmin;
+  empty-cells: show;
+}
+input {
+    border-radius: 7vmin;
+    width: 94vmin;
+    height: 13vmin;
+    margin-bottom: 2%;
+    font-size: 4.5vmin;
+}
+#imgbox{
+  width: 94vmin;
+  height: 60vmin;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10vmin;
+}
+canvas {
+    border-radius: 10vmin;
+    width: 94vmin;
+    height: 60vmin;
+    margin-bottom: 2%;
+    border: 1px solid black;
+    background-color: white;
+}
+input::placeholder {
+    font-size: 4.5vmin;
+    text-align: right;
+    padding-right: 30px;
+}
+progress {
+    margin-top: -1%;
+    -webkit-appearance: none;
+    width: 100%;
+    height: 8vmin;
+    border-radius: 40px;
+}
+::-webkit-progress-bar {
+    margin-top: -1%;
+    background-color: #166f4a;
+    width: 97%;
+    height: 8vmin;
+    border-radius: 40px;
+}
+::-webkit-progress-value {
+    margin-top: -1%;
+    background-color: #d81111;
+    width: 97%;
+    height: 8vmin;
+    border-radius: 40px;
+}
+#progressText {
+    text-align: center;
+    color: white;
+    margin-top: -7vmin;
 }

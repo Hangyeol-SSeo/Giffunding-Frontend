@@ -19,7 +19,7 @@ function App() {
             <div className="img_layout">
                 <img src={img} id="main_img"/>
                 <div id = "main_text">
-                    선물을 눌러보세요!
+                    {/* 선물을 눌러보세요! */}
                 </div>
             </div>
             <div className="main_bottom">
