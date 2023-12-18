@@ -1,13 +1,66 @@
+@font-face {
+  font-family: 'ONE-Mobile-POP';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/ONE-Mobile-POP.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'GeekbleMalang2WOFF2';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/GeekbleMalang2WOFF2.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+.main_title {
+    color: #d81111;
+    font-size: 12vmin;
+    text-underline-position: under;
+    margin-top: 25%;
+}
+.main_text {
+    font-size: 6vmin;
+    margin-top: -2%;
+    margin-bottom: 10%;
+}
+.img_layout {
+  align-items: center;
+}
+.main_bottom {
+    padding-left: 3vmin;
+    margin-top: 20vmin;
+    margin-bottom: 5vmin;
+}
+#main_img {
+  width: 100vmin;
+}
+#login_button {
+  width: 80vmin;
+}
+#team_name {
+    float: left;
+    color:#d81111;
+    font-size: 8vmin;
+    margin-right: 32vmin;
+}
+#insta_name {
+    float: right;
+    font-size: 6vmin;
+    padding-top: 1vmin;
+    margin-right: 3vmin;
+}
+html, body{
+  -webkit-text-size-adjust : none;  /* 크롬, 사파리, 오페라 신버전 */
+  -ms-text-size-adjust : none;  /* IE */
+  -moz-text-size-adjust : none;  /* 파이어폭스 */
+  -o-text-size-adjust : none;  /* 오페라 구버전 */
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'GeekbleMalang2WOFF2';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #fff2df;
+  text-align: center;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+img {
+  margin-bottom: 10%;
 }
