@@ -1,11 +1,5 @@
-import logo from './logo.svg';
-import img from './img/logo_box.png';
-import kakao from './img/kakao_login_medium_wide.png';
-import { KAKAO_AUTH_URL } from './OAuth';
-import { createContext } from 'react';
-// import './login';
-import React, { useEffect, useRef, useState } from 'react';
-import { BrowserRouter, Route, Routes, Link } from 'react-router-dom';
+import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 function Nickname(props) {
     let [inputCount, setInputCount] = useState(0);
@@ -38,10 +32,10 @@ function Nickname(props) {
             <div id="input_name">
                 <form onSubmit={event=>{
                     if(agreement!=true || inputCount == 0) {
+                        // event.preventDefault();
                         event.preventDefault();
                     }
                 }}>
-                
                     <input name="nickname" placeholder="(0/8)" onChange={onInputHandler} maxLength="8"/>
                     <div className="checkbox_form">
                         <input type="checkbox" name="agree" id="a1" value={agreement} onChange={() => handleChange("agreement")} />
